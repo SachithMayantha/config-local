@@ -1,1 +1,6 @@
-
+server:
+  port: 8191
+#It tells that config is in locally
+spring:
+  profiles:
+    active: native
